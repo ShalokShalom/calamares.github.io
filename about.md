@@ -100,7 +100,6 @@ Operating systems that already ship Calamares:
 - [Feren OS](https://ferenos.weebly.com/){:target="_blank"}
 - [Garuda Linux](https://garudalinux.org/){:target="_blank"}
 - [GeckoLinux](http://geckolinux.github.io/){:target="_blank"}
-- [Kannolo](https://kannolo.sourceforge.io/){:target="_blank"} (Fedora Remix)
 - [KaOS](http://kaosx.us/){:target="_blank"}
 - [KDE Neon](https://neon.kde.org/){:target="_blank"}
 - [Lubuntu](http://lubuntu.me/){:target="_blank"}
@@ -135,7 +134,7 @@ Operating systems that ship Calamares in their package repositories for third-pa
 ## What is Calamares made of
 {: .offset}
 
-Calamares is mostly written in C++17, with Qt 5 (5.9 or later) as general
+Calamares is mostly written in C++17, with Qt 5 [or](https://github.com/calamares/calamares/blob/calamares/CONTRIBUTING.md#dependencies-for-calamares-33) Qt 6 as general
 purpose library and UI toolkit.
 
 Calamares is modular by design, and Python 3 was chosen as the main
